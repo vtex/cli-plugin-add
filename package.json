@@ -1,8 +1,8 @@
 {
-  "name": "@vtex/cli-plugin-template",
-  "description": "vtex plugin template",
+  "name": "@vtex/cli-plugin-add",
+  "description": "vtex plugin add",
   "version": "0.0.0",
-  "bugs": "https://github.com/vtex/cli-plugin-template/issues",
+  "bugs": "https://github.com/vtex/cli-plugin-add/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -26,7 +26,7 @@
     "ts-jest": "^25.2.1",
     "ts-node": "^8",
     "typescript": "^3.8.2",
-    "vtex": "^2.115.0"
+    "vtex": "^2.121.1"
   },
   "engines": {
     "node": ">=8.0.0"
