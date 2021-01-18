@@ -1,4 +1,4 @@
-# VTEX CLI Plugin Template
+# VTEX CLI Plugin Add
 
 Extend the `vtex` toolbelt!
 
@@ -8,28 +8,28 @@ Extend the `vtex` toolbelt!
 2. Clone/Create a plugin with this template.
 3. Change the template name under this project's `package.json`.
 2. Run `yarn link` on this project.
-3. Now run `vtex link @vtex/cli-plugin-template` (or the new name) on the `vtex/toolbelt` project.
+3. Now run `vtex link @vtex/cli-plugin-add` (or the new name) on the `vtex/toolbelt` project.
 4. Run `yarn watch` on the `vtex/toolbelt`
 5. Test the command on a VTEX IO app with `vtex-test hello`
 
 For more information, read [Ocliff Docs](https://oclif.io/docs/introduction).
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-![npm](https://img.shields.io/npm/v/@vtex/cli-plugin-template)
+![npm](https://img.shields.io/npm/v/@vtex/cli-plugin-add)
 
 <!-- toc -->
-* [VTEX CLI Plugin Template](#vtex-cli-plugin-template)
+* [VTEX CLI Plugin Add](#vtex-cli-plugin-add)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @vtex/cli-plugin-template
+$ npm install -g @vtex/cli-plugin-add
 $ vtex COMMAND
 running command...
 $ vtex (-v|--version|version)
-@vtex/cli-plugin-template/0.0.0 linux-x64 node-v12.18.4
+@vtex/cli-plugin-add/0.0.0 linux-x64 node-v12.20.0
 $ vtex --help [COMMAND]
 USAGE
   $ vtex COMMAND
@@ -38,27 +38,24 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`vtex hello [FILE]`](#vtex-hello-file)
+* [`vtex add APPID [ITHAPPID]`](#vtex-add-appid-ithappid)
 
-## `vtex hello [FILE]`
+## `vtex add APPID [ITHAPPID]`
 
-describe the command here
+Add app(s) to the manifest dependencies
 
 ```
 USAGE
-  $ vtex hello [FILE]
+  $ vtex add APPID [ITHAPPID]
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-  -v, --verbose    Show debug level logs
-  --trace          Ensure all requests to VTEX IO are traced
+  -h, --help     show CLI help
+  -v, --verbose  Show debug level logs
+  --trace        Ensure all requests to VTEX IO are traced
 
 EXAMPLE
-  $ oclif-example hello
-  hello world from ./src/hello.ts!
+  vtex add vtex.service-example@0.x
 ```
 
-_See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.0/build/commands/hello.ts)_
+_See code: [build/commands/add.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.0/build/commands/add.ts)_
 <!-- commandsstop -->
