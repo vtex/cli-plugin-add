@@ -29,7 +29,7 @@ $ npm install -g @vtex/cli-plugin-add
 $ vtex COMMAND
 running command...
 $ vtex (-v|--version|version)
-@vtex/cli-plugin-add/0.0.0 linux-x64 node-v12.20.0
+@vtex/cli-plugin-add/0.0.1 linux-x64 node-v12.20.1
 $ vtex --help [COMMAND]
 USAGE
   $ vtex COMMAND
@@ -57,5 +57,5 @@ EXAMPLE
   vtex add vtex.service-example@0.x
 ```
 
-_See code: [build/commands/add.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.0/build/commands/add.ts)_
+_See code: [build/commands/add.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1/build/commands/add.ts)_
 <!-- commandsstop -->
