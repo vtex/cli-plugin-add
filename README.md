@@ -29,7 +29,7 @@ $ npm install -g @vtex/cli-plugin-add
 $ vtex COMMAND
 running command...
 $ vtex (-v|--version|version)
-@vtex/cli-plugin-add/0.0.0 linux-x64 node-v12.20.0
+@vtex/cli-plugin-add/0.1.0 linux-x64 node-v12.21.0
 $ vtex --help [COMMAND]
 USAGE
   $ vtex COMMAND
@@ -42,11 +42,17 @@ USAGE
 
 ## `vtex add APPID [ITHAPPID]`
 
-Add app(s) to the manifest dependencies
+Adds the specified app(s) to the manifest's dependencies.
 
 ```
 USAGE
   $ vtex add APPID [ITHAPPID]
+
+ARGUMENTS
+  APPID     Name and version (`{vendor}.{appname}@{x.x.x}`) of the dependency to include in the manifest.json file.
+
+  ITHAPPID  Names and versions (`{vendor}.{appname}@{x.x.x}`) of the multiple dependencies to include in the
+            manifest.json file.
 
 OPTIONS
   -h, --help     show CLI help
@@ -57,5 +63,5 @@ EXAMPLE
   vtex add vtex.service-example@0.x
 ```
 
-_See code: [build/commands/add.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.0/build/commands/add.ts)_
+_See code: [build/commands/add.ts](https://github.com/vtex/cli-plugin-template/blob/v0.1.0/build/commands/add.ts)_
 <!-- commandsstop -->
