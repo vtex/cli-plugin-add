@@ -29,7 +29,7 @@ $ npm install -g @vtex/cli-plugin-add
 $ vtex COMMAND
 running command...
 $ vtex (-v|--version|version)
-@vtex/cli-plugin-add/0.1.2 linux-x64 node-v12.22.1
+@vtex/cli-plugin-add/0.1.2 linux-x64 node-v12.22.12
 $ vtex --help [COMMAND]
 USAGE
   $ vtex COMMAND
