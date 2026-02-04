@@ -13,6 +13,7 @@ metadata:
     github.com/project-slug: vtex/cli-plugin-add
     backstage.io/techdocs-ref: dir:../
     vtex.com/application-id: 9YZ0B1EU
+    vtex.com/platform-flow-id: Merch#3,CommDev#1
 spec:
   lifecycle: stable
   owner: te-0029
