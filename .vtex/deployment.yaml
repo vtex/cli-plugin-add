@@ -1,5 +1,5 @@
 - name: cli-plugin-add
-  referenceId: PLACEHOLDER
+  referenceId: 9YZ0B1EU
   build:
     provider: dkcicd
     pipelines:
